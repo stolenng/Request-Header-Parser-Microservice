@@ -34,5 +34,9 @@
     "passport-github": "^1.0.0",
     "ua-parser-js": "^0.7.10"
   },
+    "engines": {
+    "node": "4.4.5",
+    "npm": "3.10.5"
+  },
   "devDependencies": {}
 }
