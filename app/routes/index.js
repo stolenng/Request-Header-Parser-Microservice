@@ -1,7 +1,6 @@
 'use strict';
 
 var path = process.cwd();
-var ClickHandler = require(path + '/app/controllers/clickHandler.server.js');
 var parser = require('ua-parser-js');
 
 
@@ -12,9 +11,8 @@ var getClientAddress = function (req) {
         || req.connection.remoteAddress;
 };
 
-module.exports = function (app, passport) {
+module.exports = function (app) {
 
-	var clickHandler = new ClickHandler();
 
 
 	app.route('/').get(function (req, res) {
