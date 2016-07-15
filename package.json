@@ -5,10 +5,12 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnstonbl01/clementinejs-fcc"
+    "url": "git+https://github.com/johnstonbl01/clementinejs-fcc.git"
   },
   "homepage": "http://www.clementinejs.com/",
-  "bugs": "https://github.com/johnstonbl01/clementinejs-fcc/issues",
+  "bugs": {
+    "url": "https://github.com/johnstonbl01/clementinejs-fcc/issues"
+  },
   "keywords": [
     "MongoDB",
     "Mongoose",
@@ -19,7 +21,7 @@
     "boilerplate"
   ],
   "scripts": {
-  "start": "node server.js"
+    "start": "node server.js"
   },
   "author": "Blake Johnston",
   "license": "MIT",
@@ -31,5 +33,6 @@
     "passport": "^0.3.0",
     "passport-github": "^1.0.0",
     "ua-parser-js": "^0.7.10"
-  }
+  },
+  "devDependencies": {}
 }
